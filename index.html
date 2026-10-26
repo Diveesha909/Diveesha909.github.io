@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diveesha Vanchireddy | Portfolio</title>
+<meta name="description" content="Data Science student at UW–Madison building AI systems, data pipelines, and analysis that change real decisions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf7; --surface:#ffffff; --ink:#1d2330; --muted:#5b6474; --line:#e6e2da;
+  --accent:#2f5d8a; --accent-soft:#e8eff6; --chip:#f1eee8;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14171d; --surface:#1b1f27; --ink:#e7e9ee; --muted:#a2a9b6; --line:#2b313c;
+    --accent:#8db6e0; --accent-soft:#1f2b3a; --chip:#242a34;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14171d; --surface:#1b1f27; --ink:#e7e9ee; --muted:#a2a9b6; --line:#2b313c;
+  --accent:#8db6e0; --accent-soft:#1f2b3a; --chip:#242a34;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:18px;align-items:center;height:54px;overflow-x:auto;white-space:nowrap}
+nav a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:500}
+nav a:hover{color:var(--ink)}
+nav .name{color:var(--ink);font-weight:700;margin-right:auto}
+header{padding:64px 0 36px}
+h1,h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;letter-spacing:-.01em}
+h1{font-size:clamp(34px,6vw,48px);line-height:1.1;margin:0 0 10px}
+.lede{font-size:19px;color:var(--muted);max-width:640px;margin:0 0 22px}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:14px;font-weight:500}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+section{padding:28px 0}
+h2{font-size:28px;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 22px}
+.about p{max-width:680px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px 26px 20px;margin:0 0 22px}
+.card h3{font-size:21px;margin:0 0 2px}
+.meta{color:var(--muted);font-size:14px;margin:0 0 12px}
+.tag{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent);margin:0 6px 6px 0}
+.tag.team{background:var(--chip);color:var(--muted)}
+.card h4{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:18px 0 6px}
+.card ul{margin:0;padding-left:20px}
+.card li{margin:4px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0 4px}
+.stat{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.stat b{display:block;font-size:22px;line-height:1.2}
+.stat span{font-size:13px;color:var(--muted)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:10px 0 2px;font-size:13px}
+.flow span{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:5px 9px}
+.flow i{font-style:normal;color:var(--muted)}
+.decision{border-left:3px solid var(--accent);padding:2px 0 2px 12px;margin:8px 0}
+.decision b{display:block}
+.stack{color:var(--muted);font-size:14px;margin-top:14px}
+.cardlinks{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.skills div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.skills b{display:block;margin-bottom:4px}
+.skills p{margin:0;color:var(--muted);font-size:15px}
+footer{padding:36px 0 60px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:20px}
+@media (max-width:560px){.card{padding:20px 18px 16px}header{padding:40px 0 24px}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="name" href="#top">Diveesha Vanchireddy</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</div></nav>
+
+<header id="top"><div class="wrap">
+  <h1>Diveesha Vanchireddy</h1>
+  <p class="lede">Data Science student at UW–Madison (May 2027). I build AI systems, data pipelines, and analysis that change real decisions.</p>
+  <div class="links">
+    <a class="btn primary" href="resume.pdf">Résumé (PDF)</a>
+    <a class="btn" href="https://github.com/Diveesha909">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/diveesha-vanchireddy">LinkedIn</a>
+    <a class="btn" href="mailto:vdiveesha@gmail.com">Email</a>
+  </div>
+</div></header>
+
+<main class="wrap">
+
+<section id="about" class="about">
+  <h2>About</h2>
+  <p>I've always liked asking why things happen. Data gave me a way to answer that question with evidence instead of guesses, and my favorite part is when the answer changes a real decision.</p>
+  <p>I love problems that feel like puzzles, especially the whole path from understanding a problem, to building a solution, to seeing how it helps the people who use it. I'm a B.S. Data Science student with a Certificate in Economic Analytics, and I'm looking for full-time roles in data science and applied AI starting summer 2027.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p class="sub">What I built, the decisions I made, and what happened. Team projects say which part was mine.</p>
+
+  <!-- ChatECL -->
+  <article class="card" id="chatecl">
+    <h3>ChatECL: AI Research Platform</h3>
+    <p class="meta">AI Technical Lead · Halverson Lab, Wisconsin Center for Education Research (WISCURDS) · Feb 2026–present</p>
+    <span class="tag">Document processing</span><span class="tag">RAG</span><span class="tag">Evaluation &amp; user testing</span><span class="tag">Cloud</span>
+    <p>ChatECL helps education researchers analyze interviews: transcribing them, organizing them, and asking questions about them. I own the platform, work directly with researchers to adapt it to their needs, and ship features like transcript editing and speaker labeling through CI/CD.</p>
+
+    <div class="stats">
+      <div class="stat"><b>40 → 2–3 min</b><span>transcription per interview</span></div>
+      <div class="stat"><b>~600</b><span>documents structured into PostgreSQL</span></div>
+      <div class="stat"><b>90%+</b><span>faster turnaround</span></div>
+    </div>
+
+    <h4>How it works</h4>
+    <div class="flow"><span>Interview audio &amp; documents</span><i>→</i><span>Gemini transcription</span><i>→</i><span>PostgreSQL data model</span><i>→</i><span>RAG (Pinecone) + read-only SQL tool</span><i>→</i><span>AI assistant for researchers</span></div>
+
+    <h4>What I built</h4>
+    <ul>
+      <li>Turned ~600 messy interview documents into a structured PostgreSQL data model with Python, SQL, and LLMs.</li>
+      <li>Built a read-only SQL tool so the AI assistant can query live data without being able to change it.</li>
+      <li>Help maintain the platform's retrieval-augmented generation (RAG) pipeline with Pinecone vector search.</li>
+      <li>Built an evaluation setup for the beta transcription page: click-through tracking, screen-recording review, and an automated pipeline that gathers feature ratings into a Google Form.</li>
+      <li>Leading a new district-comparison dashboard (in progress) on a staged Google Cloud pipeline: Cloud Storage → VM → clean table → separate Cloud SQL database.</li>
+    </ul>
+
+    <h4>Key decisions</h4>
+    <div class="decision"><b>Test with real users before switching.</b>I compared competing transcription models on output quality, then released a beta version of the new transcription page before rolling it out. To evaluate it, I tracked click-through rates, watched screen recordings of researchers using the page, and built an automated pipeline that collects how users rate each feature into a Google Form. That way the speedup didn't cost accuracy, and we knew which features researchers actually used.</div>
+    <div class="decision"><b>Read-only by design.</b>The AI assistant can look at research data but can never edit or delete it.</div>
+    <div class="decision"><b>Keep new work away from production.</b>The dashboard pipeline is separate from the live platform, raw files are never overwritten, and teammates get least-privilege, upload-only access with privacy checks.</div>
+    <div class="decision"><b>Don't pay before you know.</b>I built a cost model from billing data, checked vendor rates against invoices, and held off on ~$30/month in database spend until we knew how much data we'd have.</div>
+
+    <p class="stack">Python · SQL · PostgreSQL · Google Gemini · Pinecone · Google Cloud (Cloud Storage, Cloud SQL, Vertex AI) · CI/CD</p>
+    <p class="meta" style="margin-top:8px">Lab code is private, so this page describes the system rather than linking to it.</p>
+  </article>
+
+  <!-- CareCompass -->
+  <article class="card" id="carecompass">
+    <h3>CareCompass: AI Medical Triage Assistant</h3>
+    <p class="meta">ClaudeHacks (Anthropic-sponsored) · Honorable Mention · Nov 2025</p>
+    <span class="tag">Vector search</span><span class="tag">Healthcare</span><span class="tag team">Team project</span>
+    <p>Many students freeze or panic when they feel sick because they don't know whether they need urgent care, a clinic, or just rest. CareCompass lets a student describe their symptoms in plain language and points them to the right level of care.</p>
+    <div class="stats">
+      <div class="stat"><b>60 min</b><span>to build</span></div>
+      <div class="stat"><b>&lt;100 ms</b><span>to return an urgency score</span></div>
+      <div class="stat"><b>384-dim</b><span>sentence embeddings</span></div>
+    </div>
+    <h4>How it works</h4>
+    <ul>
+      <li>Symptom descriptions are embedded with sentence-transformers and matched against 26 care scenarios in a FAISS index.</li>
+      <li>The tool returns an urgency score and nearby UW Health facilities.</li>
+      <li>Flask backend with a simple React interface, so a stressed student only has to describe how they feel.</li>
+    </ul>
+    <h4>My part</h4>
+    <ul>
+      <li><b>Urgency score:</b> developed the feature that turns a student's symptom match into an urgency score that points them to the right level of care.</li>
+      <li><b>Interface:</b> designed the Flask and React interface students use to describe their symptoms and see results.</li>
+      <li>Built both with Claude Sonnet, Anthropic's latest model at the time, to move fast within the 60-minute limit.</li>
+    </ul>
+    <div class="decision"><b>Ship the simple version first.</b>With 60 minutes, we chose fast similarity search over a trained model, so the tool worked end to end and could improve later.</div>
+    <p class="stack">Python · sentence-transformers · FAISS · Flask · React</p>
+    <div class="cardlinks"><a class="btn" href="https://github.com/jpmehta1/CareCompass">Code on GitHub</a></div>
+  </article>
+
+  <!-- ACSEST -->
+  <article class="card" id="acsest">
+    <h3>ACSEST: Census Data Pipeline</h3>
+    <p class="meta">Undergraduate Research Assistant · Applied Population Lab, UW–Madison · 2025–2026</p>
+    <span class="tag">Data engineering</span><span class="tag">Open source</span><span class="tag">R</span>
+    <p>When a workflow the team relied on stopped working, I designed and wrote ACSEST, an automated R pipeline that pulls American Community Survey data from the Census Bureau API.</p>
+    <div class="stats">
+      <div class="stat"><b>8</b><span>geography levels</span></div>
+      <div class="stat"><b>Tested</b><span>with unit tests</span></div>
+      <div class="stat"><b>Documented</b><span>for the whole team</span></div>
+    </div>
+    <h4>What I built</h4>
+    <ul>
+      <li>API retrieval with variable batching and caching, so repeat pulls are fast and stay within API limits.</li>
+      <li>Margin-of-error calculations, so every estimate carries its uncertainty.</li>
+      <li>Unit tests and documentation, so the team can trust and reuse it.</li>
+    </ul>
+    <p class="stack">R · Census Bureau API · Quarto</p>
+    <div class="cardlinks"><a class="btn" href="https://github.com/antonbabkin/acsest">Code on GitHub</a><a class="btn" href="https://antonbabkin.com/acsest/acsest.html">Documentation</a></div>
+  </article>
+
+  <!-- County regression -->
+  <article class="card" id="health">
+    <h3>Job Churn and Health Outcomes Across U.S. Counties</h3>
+    <p class="meta">Applied Population Lab, UW–Madison</p>
+    <span class="tag">Statistics</span><span class="tag">Econometrics</span><span class="tag">Real-world data</span>
+    <p>Does instability in local job markets show up in community health? I built econometric regression models across every U.S. county to find out.</p>
+    <div class="stats">
+      <div class="stat"><b>3,133</b><span>U.S. counties</span></div>
+      <div class="stat"><b>3</b><span>data sources merged</span></div>
+    </div>
+    <ul>
+      <li>Cleaned and merged Census, Business Dynamics Statistics (BDS), and County Health Rankings data, with data quality checks.</li>
+      <li>Controlled for poverty and unemployment so the results weren't just picking up economic hardship.</li>
+      <li>Validated results with bootstrap resampling and robustness checks to separate signal from noise.</li>
+    </ul>
+    <p class="stack">R · Python · regression · bootstrap resampling</p>
+  </article>
+
+  <!-- Biokind -->
+  <article class="card" id="biokind">
+    <h3>Donor Behavior Analysis for Diaper Village</h3>
+    <p class="meta">Lead Data Analyst · Biokind Analytics (pro bono consulting) · Oct 2024–present</p>
+    <span class="tag">Analytics</span><span class="tag">Regression</span><span class="tag">Segmentation</span>
+    <p>I lead a team of 4–5 analysts serving Dane County nonprofits. For Diaper Village, we analyzed who donates, how often, and how much, so they could set suggested-donation amounts and keep donors coming back. I learned that my job isn't to present every finding, but to find the one a decision-maker can act on.</p>
+    <div class="stats">
+      <div class="stat"><b>$200 vs $2,884</b><span>avg. gift: individual vs. company</span></div>
+      <div class="stat"><b>+$40</b><span>next gift per $100 given now</span></div>
+      <div class="stat"><b>Retention ↑</b><span>after client adopted our plan</span></div>
+    </div>
+    <ul>
+      <li>Cleaned and merged online and offline donation records, then segmented donors by type, frequency, and gift size.</li>
+      <li>Built regression models of future giving and found seasonal peaks (May and November for individuals).</li>
+      <li>Defined KPIs from scratch and presented recommendations to non-technical clients with Tableau and PowerPoint.</li>
+    </ul>
+    <p class="stack">Python · pandas · statsmodels · GeoPandas · Tableau</p>
+    <div class="cardlinks"><a class="btn" href="https://github.com/Diveesha909/BiokindAnalytics">Code on GitHub</a></div>
+  </article>
+
+  <!-- UrbanPlot -->
+  <article class="card" id="urbanplot">
+    <h3>UrbanPlot: Business Viability Prediction</h3>
+    <p class="meta">MadData Hackathon (24 hours) · Feb 2026</p>
+    <span class="tag">NLP</span><span class="tag">Predictive modeling</span><span class="tag team">Team project</span>
+    <p>Madison has hundreds of vacant commercial lots. UrbanPlot scores each one on how likely a new business would be to succeed there, using what people are actually saying online as a signal of demand.</p>
+    <div class="stats">
+      <div class="stat"><b>676</b><span>vacant lots scored</span></div>
+      <div class="stat"><b>7,466</b><span>web-scraped posts analyzed</span></div>
+    </div>
+    <ul>
+      <li>Applied RoBERTa sentiment analysis and BART zero-shot classification to scraped posts.</li>
+      <li>Combined text signals with geospatial and trend data in a predictive scoring model.</li>
+      <li>Moved transformer inference from CPU to GPU to finish within the 24 hours.</li>
+    </ul>
+    <h4>My part</h4>
+    <ul>
+      <li><b>Data collection:</b> scraped Reddit posts and local news archives (like Isthmus) about Madison neighborhoods and businesses to measure local demand.</li>
+      <li><b>Sentiment scoring:</b> applied pretrained Hugging Face models (RoBERTa for sentiment analysis and BART for zero-shot classification) to turn those posts into sentiment scores.</li>
+      <li><b>Feeding the model:</b> passed the sentiment scores into the prediction engine as a demand signal for each lot.</li>
+    </ul>
+    <p class="stack">Python · Hugging Face Transformers · NLP · web scraping · JavaScript</p>
+    <div class="cardlinks"><a class="btn" href="https://github.com/arvindm84/UrbanPlot">Code on GitHub</a></div>
+  </article>
+
+  <!-- A/B -->
+  <article class="card" id="abtest">
+    <h3>A/B-Tested Web Application</h3>
+    <p class="meta">CS 320, UW–Madison · Summer 2025</p>
+    <span class="tag">Experimentation</span>
+    <p>Designed and analyzed an A/B test on button design, measuring the effect on click-through rate to make a data-driven decision.</p>
+    <p class="stack">Python · HTML · CSS · JavaScript</p>
+  </article>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><b>Programming &amp; data</b><p>Python (pandas, scikit-learn, PyTorch), SQL, R, JavaScript, PostgreSQL, BigQuery, Snowflake, ETL</p></div>
+    <div><b>AI &amp; cloud</b><p>LLMs, RAG, vector search (Pinecone, FAISS), NLP, Google Cloud (Cloud Storage, Cloud SQL, Vertex AI), Claude Code, Git, CI/CD</p></div>
+    <div><b>Statistics &amp; analytics</b><p>Regression, econometrics, hypothesis testing, A/B testing, bootstrap resampling, segmentation, Tableau, Power BI</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer id="contact"><div class="wrap">
+  <p><b style="color:var(--ink)">Let's talk.</b> I'm looking for full-time data science and applied AI roles starting summer 2027.</p>
+  <p><a href="mailto:vdiveesha@gmail.com">vdiveesha@gmail.com</a> · <a href="https://linkedin.com/in/diveesha-vanchireddy">LinkedIn</a> · <a href="https://github.com/Diveesha909">GitHub</a> · Madison, WI</p>
+</div></footer>
+
+</body>
+</html>
